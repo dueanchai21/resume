@@ -316,8 +316,8 @@ body::-webkit-scrollbar-thumb{
 	position: relative;
 }
 .tm_content{
-	width: 100%;
-	max-width: 1250px;
+	width: 94%;
+	/* max-width: 1250px; */
 	height: auto;
 	clear: both;
 	margin: 0px auto;
@@ -640,7 +640,7 @@ body::-webkit-scrollbar-thumb{
 	min-height: 100vh;
 	clear: both;
 	float: left;
-	background-color: #EFFBF8;
+	background-color: #E3EBFD;
 }
 .elisc_tm_home .details{
 	width: 100%;
@@ -667,7 +667,7 @@ body::-webkit-scrollbar-thumb{
 	line-height: 72px;
 }
 .blueColor{
-	color: var(--blue-color);
+	color: #a26dff;
 }
 .yellowColor{
 	color: var(--yellow-color);
@@ -906,16 +906,16 @@ body::-webkit-scrollbar-thumb{
 	transform: scale3d(3.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
 }
 .elisc_tm_counter ul li:nth-child(1) .list_inner{
-	background-color: #D3F4EC;
+	background-color: #c6f1ff;
 }
 .elisc_tm_counter ul li:nth-child(2) .list_inner{
-	background-color: #FCE8D4;
+	background-color: #fcd4e6;
 }
 .elisc_tm_counter ul li:nth-child(3) .list_inner{
-	background-color: #E3F9E0;
+	background-color: #fff6b4;
 }
 .elisc_tm_counter h3{
-	font-size: 40px;
+	font-size: 25px;
 	margin-bottom: 7px;
 }
 .elisc_tm_counter span{
@@ -1011,6 +1011,7 @@ body::-webkit-scrollbar-thumb{
 .elisc_tm_experience .place span{
 	font-weight: 500;
 	font-family: var(--font-inter);
+	font-size: 13px;
 }
 .elisc_tm_experience .text{
 	width: 100%;
@@ -2589,7 +2590,7 @@ body::-webkit-scrollbar-thumb{
 
 @media (max-width: 1600px) {
 	body{font-size: 16px;line-height: 30px;}
-	.tm_content{max-width: 1000px;}
+	.tm_content{max-width: 93%;}
 	.elisc_tm_sidebar{width: 300px;}
 	.elisc_tm_mainpart{padding-left: 300px;}
 	.elisc_tm_sidebar .author{padding-top: 30px;}
@@ -2612,7 +2613,7 @@ body::-webkit-scrollbar-thumb{
 	.elisc_tm_biography .job{font-size: 17px;}
 	.elisc_tm_biography .title{margin-bottom: 30px;}
 	.elisc_tm_counter ul li .list_inner{padding: 45px 20px;}
-	.elisc_tm_counter h3{font-size: 35px;margin-bottom: 3px;}
+	.elisc_tm_counter h3{font-size: 22px;margin-bottom: 3px;}
 	.elisc_tm_title h3{font-size: 35px;}
 	.elisc_tm_title span{margin-bottom: 4px;}
 	.elisc_tm_experience .list ul li .list_inner{padding: 40px;}
